@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: ATTACHED-JAR: org.jenkins-ci.main:jenkins-war:war-for-test:1.610-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/war/target/jenkins.war!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

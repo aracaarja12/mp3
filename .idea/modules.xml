@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cli/cli.iml" filepath="$PROJECT_DIR$/cli/cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/jenkins-core.iml" filepath="$PROJECT_DIR$/core/jenkins-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/jenkins-test-harness.iml" filepath="$PROJECT_DIR$/test/jenkins-test-harness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/war/jenkins-war.iml" filepath="$PROJECT_DIR$/war/jenkins-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/plugin.iml" filepath="$PROJECT_DIR$/plugins/plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pom.iml" filepath="$PROJECT_DIR$/pom.iml" />
+    </modules>
+  </component>
+</project>
