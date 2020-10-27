@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jenkins.util.xstream.XStreamDOMTest" time="0.003" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="jenkins.util.xstream.XStreamDOMTest" time="0.165" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -59,12 +59,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testNameEscape" classname="jenkins.util.xstream.XStreamDOMTest" time="0.001"/>
-  <testcase name="testWriteToDOM" classname="jenkins.util.xstream.XStreamDOMTest" time="0.001"/>
-  <testcase name="testUnmarshal" classname="jenkins.util.xstream.XStreamDOMTest" time="0"/>
-  <testcase name="readFromInputStream" classname="jenkins.util.xstream.XStreamDOMTest" time="0"/>
-  <testcase name="escapeHandling" classname="jenkins.util.xstream.XStreamDOMTest" time="0"/>
-  <testcase name="testMarshal" classname="jenkins.util.xstream.XStreamDOMTest" time="0.001"/>
-  <testcase name="testNoChild" classname="jenkins.util.xstream.XStreamDOMTest" time="0"/>
-  <testcase name="testDomInMap" classname="jenkins.util.xstream.XStreamDOMTest" time="0"/>
+  <testcase name="testNameEscape" classname="jenkins.util.xstream.XStreamDOMTest" time="0.057"/>
+  <testcase name="testWriteToDOM" classname="jenkins.util.xstream.XStreamDOMTest" time="0.017"/>
+  <testcase name="testUnmarshal" classname="jenkins.util.xstream.XStreamDOMTest" time="0.002"/>
+  <testcase name="readFromInputStream" classname="jenkins.util.xstream.XStreamDOMTest" time="0.024"/>
+  <testcase name="escapeHandling" classname="jenkins.util.xstream.XStreamDOMTest" time="0.027"/>
+  <testcase name="testMarshal" classname="jenkins.util.xstream.XStreamDOMTest" time="0.003"/>
+  <testcase name="testNoChild" classname="jenkins.util.xstream.XStreamDOMTest" time="0.003"/>
+  <testcase name="testDomInMap" classname="jenkins.util.xstream.XStreamDOMTest" time="0.032"/>
 </testsuite>

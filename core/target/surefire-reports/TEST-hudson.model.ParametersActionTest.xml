@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.model.ParametersActionTest" time="0" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="hudson.model.ParametersActionTest" time="1.084" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -59,11 +59,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="mergeShouldOverrideParameters" classname="hudson.model.ParametersActionTest" time="0"/>
-  <testcase name="mergeShouldCombineDisparateParameters" classname="hudson.model.ParametersActionTest" time="0"/>
-  <testcase name="mergeShouldHandleEmptyOverrides" classname="hudson.model.ParametersActionTest" time="0"/>
+  <testcase name="mergeShouldOverrideParameters" classname="hudson.model.ParametersActionTest" time="0.012"/>
+  <testcase name="mergeShouldCombineDisparateParameters" classname="hudson.model.ParametersActionTest" time="0.001"/>
+  <testcase name="mergeShouldHandleEmptyOverrides" classname="hudson.model.ParametersActionTest" time="0.001"/>
   <testcase name="mergeShouldHandleNullOverrides" classname="hudson.model.ParametersActionTest" time="0"/>
   <testcase name="mergeShouldReturnNewInstanceWithOverride" classname="hudson.model.ParametersActionTest" time="0"/>
   <testcase name="createUpdatedShouldReturnNewInstanceWithNullOverride" classname="hudson.model.ParametersActionTest" time="0"/>
-  <testcase name="checkNullParamaterValues" classname="hudson.model.ParametersActionTest" time="0"/>
+  <testcase name="checkNullParamaterValues" classname="hudson.model.ParametersActionTest" time="1.07"/>
 </testsuite>

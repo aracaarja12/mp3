@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jenkins.model.RunIdMigratorTest" time="0.449" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="jenkins.model.RunIdMigratorTest" time="0.825" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -59,10 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="reverseImmediately" classname="jenkins.model.RunIdMigratorTest" time="0.001"/>
-  <testcase name="reverseAfterNewBuilds" classname="jenkins.model.RunIdMigratorTest" time="0.213"/>
-  <testcase name="legacy" classname="jenkins.model.RunIdMigratorTest" time="0.188"/>
-  <testcase name="newJob" classname="jenkins.model.RunIdMigratorTest" time="0.002"/>
+  <testcase name="reverseImmediately" classname="jenkins.model.RunIdMigratorTest" time="0.044"/>
+  <testcase name="reverseAfterNewBuilds" classname="jenkins.model.RunIdMigratorTest" time="0.126"/>
+  <testcase name="legacy" classname="jenkins.model.RunIdMigratorTest" time="0.372"/>
+  <testcase name="newJob" classname="jenkins.model.RunIdMigratorTest" time="0.003"/>
   <testcase name="move" classname="jenkins.model.RunIdMigratorTest" time="0.002"/>
-  <testcase name="reRunMigration" classname="jenkins.model.RunIdMigratorTest" time="0.043"/>
+  <testcase name="reRunMigration" classname="jenkins.model.RunIdMigratorTest" time="0.278"/>
 </testsuite>
