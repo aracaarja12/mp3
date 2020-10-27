@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.cli.handlers.ViewOptionHandlerTest" time="57.988" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="hudson.cli.handlers.ViewOptionHandlerTest" time="90.02" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -59,15 +59,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="resolveTopLevelView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="57.78"/>
-  <testcase name="resolveNestedView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.009"/>
+  <testcase name="resolveTopLevelView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="87.945"/>
+  <testcase name="resolveNestedView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.062"/>
   <testcase name="ignoreLeadingAndTrailingSlashes" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.004"/>
-  <testcase name="reportNonexistentTopLevelView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.065"/>
-  <testcase name="reportNonexistentNestedView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.077"/>
-  <testcase name="reportNonexistentInnerView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.007"/>
-  <testcase name="reportTraversingViewThatIsNotAViewGroup" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.005"/>
-  <testcase name="refuseToReadOuterView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.026"/>
+  <testcase name="reportNonexistentTopLevelView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.265"/>
+  <testcase name="reportNonexistentNestedView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="1.107"/>
+  <testcase name="reportNonexistentInnerView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.01"/>
+  <testcase name="reportTraversingViewThatIsNotAViewGroup" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.003"/>
+  <testcase name="refuseToReadOuterView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.568"/>
   <testcase name="refuseToReadNestedView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.006"/>
-  <testcase name="refuseToReadInnerView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.004"/>
-  <testcase name="resolveOuterView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.005"/>
+  <testcase name="refuseToReadInnerView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.002"/>
+  <testcase name="resolveOuterView" classname="hudson.cli.handlers.ViewOptionHandlerTest" time="0.048"/>
 </testsuite>
