@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.MarkupTextTest" time="0.003" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="hudson.MarkupTextTest" time="0" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean -Plight-test install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Plight-test install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,12 +59,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="boundary" classname="hudson.MarkupTextTest" time="0.001"/>
+  <testcase name="boundary" classname="hudson.MarkupTextTest" time="0"/>
   <testcase name="findTokensOnSubText" classname="hudson.MarkupTextTest" time="0"/>
   <testcase name="escape" classname="hudson.MarkupTextTest" time="0"/>
-  <testcase name="adjacent" classname="hudson.MarkupTextTest" time="0.001"/>
+  <testcase name="adjacent" classname="hudson.MarkupTextTest" time="0"/>
   <testcase name="literalTextSurround" classname="hudson.MarkupTextTest" time="0"/>
   <testcase name="test1" classname="hudson.MarkupTextTest" time="0"/>
-  <testcase name="subTextSubText" classname="hudson.MarkupTextTest" time="0.001"/>
+  <testcase name="subTextSubText" classname="hudson.MarkupTextTest" time="0"/>
   <testcase name="preEscape" classname="hudson.MarkupTextTest" time="0"/>
 </testsuite>

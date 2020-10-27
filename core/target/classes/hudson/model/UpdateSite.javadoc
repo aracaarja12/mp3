@@ -1,4 +1,4 @@
-#Mon Oct 26 18:58:22 EDT 2020
+#Mon Oct 26 20:52:21 EDT 2020
 getUpdates=\ Returns the list of plugins that are updates to currently installed ones.\n\n @return\n      can be empty but never null.\n
 getUrl=\ Exposed to get rid of hardcoding of the URL that serves up update-center.json\n in Javascript.\n
 getAvailables=\ Returns a list of plugins that should be shown in the "available" tab.\n These are "all plugins - installed plugins".\n

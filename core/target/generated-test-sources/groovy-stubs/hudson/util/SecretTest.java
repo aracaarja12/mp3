@@ -11,7 +11,7 @@ public class SecretTest
   extends java.lang.Object  implements
     groovy.lang.GroovyObject {
 @org.junit.Rule() public jenkins.security.ConfidentialStoreRule confidentialStore;
-@org.junit.Rule() public MockSecretRule mockSecretRule;
+@org.junit.Rule() public hudson.util.MockSecretRule mockSecretRule;
 public  groovy.lang.MetaClass getMetaClass() { return (groovy.lang.MetaClass)null;}
 public  void setMetaClass(groovy.lang.MetaClass mc) { }
 public  java.lang.Object invokeMethod(java.lang.String method, java.lang.Object arguments) { return null;}

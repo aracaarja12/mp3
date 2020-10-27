@@ -10,7 +10,7 @@ import groovy.util.*;
 public class HMACConfidentialKeyTest
   extends java.lang.Object  implements
     groovy.lang.GroovyObject {
-@org.junit.Rule() public ConfidentialStoreRule store;
+@org.junit.Rule() public jenkins.security.ConfidentialStoreRule store;
 public  groovy.lang.MetaClass getMetaClass() { return (groovy.lang.MetaClass)null;}
 public  void setMetaClass(groovy.lang.MetaClass mc) { }
 public  java.lang.Object invokeMethod(java.lang.String method, java.lang.Object arguments) { return null;}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.FunctionsTest" time="3.366" tests="15" errors="0" skipped="1" failures="0">
+<testsuite name="hudson.FunctionsTest" time="3.75" tests="15" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean -Plight-test install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Plight-test install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,21 +59,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testHumanReadableFileSize" classname="hudson.FunctionsTest" time="0.004"/>
-  <testcase name="testBreakableString" classname="hudson.FunctionsTest" time="0.013"/>
-  <testcase name="printLogRecordHtml" classname="hudson.FunctionsTest" time="0.001"/>
-  <testcase name="testGetActionUrl_absoluteUriWithoutAuthority" classname="hudson.FunctionsTest" time="0.021"/>
-  <testcase name="testGetRelativeDisplayName" classname="hudson.FunctionsTest" time="0.015"/>
-  <testcase name="testGetRelativeDisplayNameInsideItemGroup" classname="hudson.FunctionsTest" time="0.064"/>
-  <testcase name="testGetActionUrl_absoluteUriWithAuthority" classname="hudson.FunctionsTest" time="0.001"/>
-  <testcase name="testGetRelativeLinkTo_JobContainedInViewWithinItemGroup" classname="hudson.FunctionsTest" time="0.613"/>
-  <testcase name="testGetActionUrl_unparsable" classname="hudson.FunctionsTest" time="0.128"/>
-  <testcase name="testGetActionUrl_relativePath" classname="hudson.FunctionsTest" time="0.308"/>
-  <testcase name="testGetRelativeLinkTo_JobContainedInView" classname="hudson.FunctionsTest" time="0.589"/>
-  <testcase name="testGetRelativeLinkTo_JobFromComputer" classname="hudson.FunctionsTest" time="0.669"/>
+  <testcase name="testGetActionUrl_absoluteUriWithoutAuthority" classname="hudson.FunctionsTest" time="0.028"/>
+  <testcase name="testGetRelativeDisplayName" classname="hudson.FunctionsTest" time="0.014"/>
+  <testcase name="testGetRelativeDisplayNameInsideItemGroup" classname="hudson.FunctionsTest" time="0.075"/>
+  <testcase name="testHumanReadableFileSize" classname="hudson.FunctionsTest" time="0"/>
+  <testcase name="testBreakableString" classname="hudson.FunctionsTest" time="0.014"/>
+  <testcase name="printLogRecordHtml" classname="hudson.FunctionsTest" time="0"/>
+  <testcase name="testGetActionUrl_absoluteUriWithAuthority" classname="hudson.FunctionsTest" time="0"/>
+  <testcase name="testGetRelativeLinkTo_JobContainedInViewWithinItemGroup" classname="hudson.FunctionsTest" time="0.993"/>
+  <testcase name="testGetActionUrl_relativePath" classname="hudson.FunctionsTest" time="0.267"/>
+  <testcase name="testGetRelativeLinkTo_JobContainedInView" classname="hudson.FunctionsTest" time="0.662"/>
+  <testcase name="testGetRelativeLinkTo_JobFromComputer" classname="hudson.FunctionsTest" time="0.648"/>
   <testcase name="testGetRelativeLinkTo_JobNotContainedInView" classname="hudson.FunctionsTest" time="0">
     <skipped message="too expensive to make it correct"/>
   </testcase>
-  <testcase name="getRelativeLinkTo_MavenModules" classname="hudson.FunctionsTest" time="0.629"/>
+  <testcase name="getRelativeLinkTo_MavenModules" classname="hudson.FunctionsTest" time="0.6"/>
+  <testcase name="testGetActionUrl_unparsable" classname="hudson.FunctionsTest" time="0.138"/>
   <testcase name="testGetActionUrl_absolutePath" classname="hudson.FunctionsTest" time="0.311"/>
 </testsuite>

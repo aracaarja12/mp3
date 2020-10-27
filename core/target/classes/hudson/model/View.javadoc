@@ -1,4 +1,4 @@
-#Mon Oct 26 18:58:22 EDT 2020
+#Mon Oct 26 20:52:21 EDT 2020
 getAllProperties=\ List of all {@link ViewProperty}s exposed primarily for the remoting API.\n @since 1.406\n
 getViewName=\ Gets the name of all this collection.\n\n @see \#rename(String)\n
 getDescription=\ Message displayed in the top page. Can be null. Includes HTML.\n
