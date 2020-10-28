@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: hudson.model.LoadStatisticsTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.123 sec <<< FAILURE! - in hudson.model.LoadStatisticsTest
-graph(hudson.model.LoadStatisticsTest)  Time elapsed: 0.121 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.148 sec <<< FAILURE! - in hudson.model.LoadStatisticsTest
+graph(hudson.model.LoadStatisticsTest)  Time elapsed: 0.146 sec  <<< ERROR!
 java.awt.AWTError: Assistive Technology not found: org.GNOME.Accessibility.AtkWrapper
 	at java.awt.Toolkit.loadAssistiveTechnologies(Toolkit.java:807)
 	at java.awt.Toolkit.getDefaultToolkit(Toolkit.java:886)
