@@ -1,3 +1,0 @@
-package jenkins.security;
-contributor(context(ctype:'jenkins.security.HudsonPrivateSecurityRealmTagLib')) {
-}

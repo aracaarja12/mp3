@@ -1,3 +1,0 @@
-package lib;
-contributor(context(ctype:'lib.TestTagLib')) {
-}
