@@ -35,199 +35,55 @@ public interface LayoutTagLib
 
     /**
      * 
-     *         
-     *         
-     *         
+     *     Creates a small button that lets the user copies a text into clipboard
+     * 
      *     
-     * 
-     */
-    void progressiveRendering(Map args, Closure body);
-
-    /**
-     * 
-     *         
-     *         
-     *         
-     *     
-     * 
-     */
-    void progressiveRendering(Closure body);
-
-    /**
-     * 
-     *         
-     *         
-     *         
-     *     
-     * 
-     */
-    void progressiveRendering(Map args);
-
-    /**
-     * 
-     *         
-     *         
-     *         
-     *     
-     * 
-     */
-    void progressiveRendering();
-
-    /**
-     * 
-     *     Renders the body only if the current user has the specified permission
-     *     
-     *   
-     * 
-     */
-    void hasPermission(Map args, Closure body);
-
-    /**
-     * 
-     *     Renders the body only if the current user has the specified permission
-     *     
-     *   
-     * 
-     */
-    void hasPermission(Closure body);
-
-    /**
-     * 
-     *     Renders the body only if the current user has the specified permission
-     *     
-     *   
-     * 
-     */
-    void hasPermission(Map args);
-
-    /**
-     * 
-     *     Renders the body only if the current user has the specified permission
-     *     
-     *   
-     * 
-     */
-    void hasPermission();
-
-    /**
-     * 
-     *     Used inside &lt;l:layout> to render additional breadcrumb items.
-     * 
      *     
      *     
      *     
      *   
      * 
      */
-    void breadcrumb(Map args, Closure body);
+    void copyButton(Map args, Closure body);
 
     /**
      * 
-     *     Used inside &lt;l:layout> to render additional breadcrumb items.
+     *     Creates a small button that lets the user copies a text into clipboard
      * 
      *     
-     *     
-     *     
-     *   
-     * 
-     */
-    void breadcrumb(Closure body);
-
-    /**
-     * 
-     *     Used inside &lt;l:layout> to render additional breadcrumb items.
-     * 
      *     
      *     
      *     
      *   
      * 
      */
-    void breadcrumb(Map args);
+    void copyButton(Closure body);
 
     /**
      * 
-     *     Used inside &lt;l:layout> to render additional breadcrumb items.
+     *     Creates a small button that lets the user copies a text into clipboard
      * 
      *     
      *     
      *     
+     *     
      *   
      * 
      */
-    void breadcrumb();
+    void copyButton(Map args);
 
     /**
      * 
-     */
-    void tab(Map args, Closure body);
-
-    /**
+     *     Creates a small button that lets the user copies a text into clipboard
      * 
-     */
-    void tab(Closure body);
-
-    /**
-     * 
-     */
-    void tab(Map args);
-
-    /**
-     * 
-     */
-    void tab();
-
-    /**
-     * 
-     *     Generates the bar that shows breadcrumbs, along with its associated dynamic behaviours.
-     *     This tag is used by l:layout and not expected to be used by anyone else,
-     *     but it's written as separate tag for better readability of code.
-     * 
-     *     To render additional breadcrumb items (for example to provide in-page navigations),
-     *     use the &lt;l:breadcrumb> tag.
+     *     
+     *     
+     *     
+     *     
      *   
      * 
      */
-    void breadcrumbBar(Map args, Closure body);
-
-    /**
-     * 
-     *     Generates the bar that shows breadcrumbs, along with its associated dynamic behaviours.
-     *     This tag is used by l:layout and not expected to be used by anyone else,
-     *     but it's written as separate tag for better readability of code.
-     * 
-     *     To render additional breadcrumb items (for example to provide in-page navigations),
-     *     use the &lt;l:breadcrumb> tag.
-     *   
-     * 
-     */
-    void breadcrumbBar(Closure body);
-
-    /**
-     * 
-     *     Generates the bar that shows breadcrumbs, along with its associated dynamic behaviours.
-     *     This tag is used by l:layout and not expected to be used by anyone else,
-     *     but it's written as separate tag for better readability of code.
-     * 
-     *     To render additional breadcrumb items (for example to provide in-page navigations),
-     *     use the &lt;l:breadcrumb> tag.
-     *   
-     * 
-     */
-    void breadcrumbBar(Map args);
-
-    /**
-     * 
-     *     Generates the bar that shows breadcrumbs, along with its associated dynamic behaviours.
-     *     This tag is used by l:layout and not expected to be used by anyone else,
-     *     but it's written as separate tag for better readability of code.
-     * 
-     *     To render additional breadcrumb items (for example to provide in-page navigations),
-     *     use the &lt;l:breadcrumb> tag.
-     *   
-     * 
-     */
-    void breadcrumbBar();
+    void copyButton();
 
     /**
      * 
@@ -268,30 +124,6 @@ public interface LayoutTagLib
      * 
      */
     void breakable();
-
-    /**
-     * 
-     */
-    @TagFile("side-panel")
-    void side_panel(Map args, Closure body);
-
-    /**
-     * 
-     */
-    @TagFile("side-panel")
-    void side_panel(Closure body);
-
-    /**
-     * 
-     */
-    @TagFile("side-panel")
-    void side_panel(Map args);
-
-    /**
-     * 
-     */
-    @TagFile("side-panel")
-    void side_panel();
 
     /**
      * 
@@ -367,111 +199,79 @@ public interface LayoutTagLib
 
     /**
      * 
-     */
-    void tasks(Map args, Closure body);
-
-    /**
-     * 
-     */
-    void tasks(Closure body);
-
-    /**
-     * 
-     */
-    void tasks(Map args);
-
-    /**
-     * 
-     */
-    void tasks();
-
-    /**
-     * 
-     *     Load Yahoo UI module.
+     *     Renders the body only if the current user has the specified permission
      *     
      *   
      * 
      */
-    void yui(Map args, Closure body);
+    void hasPermission(Map args, Closure body);
 
     /**
      * 
-     *     Load Yahoo UI module.
+     *     Renders the body only if the current user has the specified permission
      *     
      *   
      * 
      */
-    void yui(Closure body);
+    void hasPermission(Closure body);
 
     /**
      * 
-     *     Load Yahoo UI module.
+     *     Renders the body only if the current user has the specified permission
      *     
      *   
      * 
      */
-    void yui(Map args);
+    void hasPermission(Map args);
 
     /**
      * 
-     *     Load Yahoo UI module.
+     *     Renders the body only if the current user has the specified permission
      *     
      *   
      * 
      */
-    void yui();
+    void hasPermission();
 
     /**
      * 
-     *     Creates a small button that lets the user copies a text into clipboard
-     * 
-     *     
      *     
      *     
      *     
      *   
      * 
      */
-    void copyButton(Map args, Closure body);
+    void renderOnDemand(Map args, Closure body);
 
     /**
      * 
-     *     Creates a small button that lets the user copies a text into clipboard
-     * 
-     *     
      *     
      *     
      *     
      *   
      * 
      */
-    void copyButton(Closure body);
+    void renderOnDemand(Closure body);
 
     /**
      * 
-     *     Creates a small button that lets the user copies a text into clipboard
-     * 
-     *     
      *     
      *     
      *     
      *   
      * 
      */
-    void copyButton(Map args);
+    void renderOnDemand(Map args);
 
     /**
      * 
-     *     Creates a small button that lets the user copies a text into clipboard
-     * 
-     *     
      *     
      *     
      *     
      *   
      * 
      */
-    void copyButton();
+    void renderOnDemand();
 
     /**
      * 
@@ -524,6 +324,286 @@ public interface LayoutTagLib
      * 
      */
     void tabBar();
+
+    /**
+     * 
+     *     @since 1.576
+     *     
+     * 
+     *     
+     * 
+     *     
+     *     
+     *     
+     *     
+     * 
+     *     
+     *   
+     * 
+     */
+    void icon(Map args, Closure body);
+
+    /**
+     * 
+     *     @since 1.576
+     *     
+     * 
+     *     
+     * 
+     *     
+     *     
+     *     
+     *     
+     * 
+     *     
+     *   
+     * 
+     */
+    void icon(Closure body);
+
+    /**
+     * 
+     *     @since 1.576
+     *     
+     * 
+     *     
+     * 
+     *     
+     *     
+     *     
+     *     
+     * 
+     *     
+     *   
+     * 
+     */
+    void icon(Map args);
+
+    /**
+     * 
+     *     @since 1.576
+     *     
+     * 
+     *     
+     * 
+     *     
+     *     
+     *     
+     *     
+     * 
+     *     
+     *   
+     * 
+     */
+    void icon();
+
+    /**
+     * 
+     *         
+     *         
+     *         
+     *     
+     * 
+     */
+    void progressiveRendering(Map args, Closure body);
+
+    /**
+     * 
+     *         
+     *         
+     *         
+     *     
+     * 
+     */
+    void progressiveRendering(Closure body);
+
+    /**
+     * 
+     *         
+     *         
+     *         
+     *     
+     * 
+     */
+    void progressiveRendering(Map args);
+
+    /**
+     * 
+     *         
+     *         
+     *         
+     *     
+     * 
+     */
+    void progressiveRendering();
+
+    /**
+     * 
+     *         Creates a clickable "Stop" button.
+     *         
+     *         
+     *     
+     * 
+     */
+    void stopButton(Map args, Closure body);
+
+    /**
+     * 
+     *         Creates a clickable "Stop" button.
+     *         
+     *         
+     *     
+     * 
+     */
+    void stopButton(Closure body);
+
+    /**
+     * 
+     *         Creates a clickable "Stop" button.
+     *         
+     *         
+     *     
+     * 
+     */
+    void stopButton(Map args);
+
+    /**
+     * 
+     *         Creates a clickable "Stop" button.
+     *         
+     *         
+     *     
+     * 
+     */
+    void stopButton();
+
+    /**
+     * 
+     *     Generates the body as the main content part of a Jenkins page.
+     *   
+     * 
+     */
+    @TagFile("main-panel")
+    void main_panel(Map args, Closure body);
+
+    /**
+     * 
+     *     Generates the body as the main content part of a Jenkins page.
+     *   
+     * 
+     */
+    @TagFile("main-panel")
+    void main_panel(Closure body);
+
+    /**
+     * 
+     *     Generates the body as the main content part of a Jenkins page.
+     *   
+     * 
+     */
+    @TagFile("main-panel")
+    void main_panel(Map args);
+
+    /**
+     * 
+     *     Generates the body as the main content part of a Jenkins page.
+     *   
+     * 
+     */
+    @TagFile("main-panel")
+    void main_panel();
+
+    /**
+     * 
+     */
+    @TagFile("side-panel")
+    void side_panel(Map args, Closure body);
+
+    /**
+     * 
+     */
+    @TagFile("side-panel")
+    void side_panel(Closure body);
+
+    /**
+     * 
+     */
+    @TagFile("side-panel")
+    void side_panel(Map args);
+
+    /**
+     * 
+     */
+    @TagFile("side-panel")
+    void side_panel();
+
+    /**
+     * 
+     */
+    void tasks(Map args, Closure body);
+
+    /**
+     * 
+     */
+    void tasks(Closure body);
+
+    /**
+     * 
+     */
+    void tasks(Map args);
+
+    /**
+     * 
+     */
+    void tasks();
+
+    /**
+     * 
+     *     Header portion of the HTML page, that gets rendered into the &lt;head> tag.
+     *     Multiple &lt;l:header> elements can be specified, and can even come after
+     *     &lt;l:main-panel>.
+     * 
+     *     This tag can be placed inside &lt;l:layout>.
+     *   
+     * 
+     */
+    void header(Map args, Closure body);
+
+    /**
+     * 
+     *     Header portion of the HTML page, that gets rendered into the &lt;head> tag.
+     *     Multiple &lt;l:header> elements can be specified, and can even come after
+     *     &lt;l:main-panel>.
+     * 
+     *     This tag can be placed inside &lt;l:layout>.
+     *   
+     * 
+     */
+    void header(Closure body);
+
+    /**
+     * 
+     *     Header portion of the HTML page, that gets rendered into the &lt;head> tag.
+     *     Multiple &lt;l:header> elements can be specified, and can even come after
+     *     &lt;l:main-panel>.
+     * 
+     *     This tag can be placed inside &lt;l:layout>.
+     *   
+     * 
+     */
+    void header(Map args);
+
+    /**
+     * 
+     *     Header portion of the HTML page, that gets rendered into the &lt;head> tag.
+     *     Multiple &lt;l:header> elements can be specified, and can even come after
+     *     &lt;l:main-panel>.
+     * 
+     *     This tag can be placed inside &lt;l:layout>.
+     *   
+     * 
+     */
+    void header();
 
     /**
      * 
@@ -602,288 +682,100 @@ public interface LayoutTagLib
     void task();
 
     /**
+     * Deprecated, do not use.
      * 
-     *     @since 1.576
-     *     
+     */
+    void isAdminOrTest(Map args, Closure body);
+
+    /**
+     * Deprecated, do not use.
      * 
-     *     
+     */
+    void isAdminOrTest(Closure body);
+
+    /**
+     * Deprecated, do not use.
      * 
-     *     
-     *     
-     *     
-     *     
+     */
+    void isAdminOrTest(Map args);
+
+    /**
+     * Deprecated, do not use.
      * 
-     *     
+     */
+    void isAdminOrTest();
+
+    /**
+     * 
+     */
+    void tab(Map args, Closure body);
+
+    /**
+     * 
+     */
+    void tab(Closure body);
+
+    /**
+     * 
+     */
+    void tab(Map args);
+
+    /**
+     * 
+     */
+    void tab();
+
+    /**
+     * 
+     *     Generates the bar that shows breadcrumbs, along with its associated dynamic behaviours.
+     *     This tag is used by l:layout and not expected to be used by anyone else,
+     *     but it's written as separate tag for better readability of code.
+     * 
+     *     To render additional breadcrumb items (for example to provide in-page navigations),
+     *     use the &lt;l:breadcrumb> tag.
      *   
      * 
      */
-    void icon(Map args, Closure body);
+    void breadcrumbBar(Map args, Closure body);
 
     /**
      * 
-     *     @since 1.576
-     *     
+     *     Generates the bar that shows breadcrumbs, along with its associated dynamic behaviours.
+     *     This tag is used by l:layout and not expected to be used by anyone else,
+     *     but it's written as separate tag for better readability of code.
      * 
-     *     
-     * 
-     *     
-     *     
-     *     
-     *     
-     * 
-     *     
+     *     To render additional breadcrumb items (for example to provide in-page navigations),
+     *     use the &lt;l:breadcrumb> tag.
      *   
      * 
      */
-    void icon(Closure body);
+    void breadcrumbBar(Closure body);
 
     /**
      * 
-     *     @since 1.576
-     *     
+     *     Generates the bar that shows breadcrumbs, along with its associated dynamic behaviours.
+     *     This tag is used by l:layout and not expected to be used by anyone else,
+     *     but it's written as separate tag for better readability of code.
      * 
-     *     
-     * 
-     *     
-     *     
-     *     
-     *     
-     * 
-     *     
+     *     To render additional breadcrumb items (for example to provide in-page navigations),
+     *     use the &lt;l:breadcrumb> tag.
      *   
      * 
      */
-    void icon(Map args);
+    void breadcrumbBar(Map args);
 
     /**
      * 
-     *     @since 1.576
-     *     
+     *     Generates the bar that shows breadcrumbs, along with its associated dynamic behaviours.
+     *     This tag is used by l:layout and not expected to be used by anyone else,
+     *     but it's written as separate tag for better readability of code.
      * 
-     *     
-     * 
-     *     
-     *     
-     *     
-     *     
-     * 
-     *     
+     *     To render additional breadcrumb items (for example to provide in-page navigations),
+     *     use the &lt;l:breadcrumb> tag.
      *   
      * 
      */
-    void icon();
-
-    /**
-     * 
-     *     
-     *     
-     *     
-     *   
-     * 
-     */
-    void renderOnDemand(Map args, Closure body);
-
-    /**
-     * 
-     *     
-     *     
-     *     
-     *   
-     * 
-     */
-    void renderOnDemand(Closure body);
-
-    /**
-     * 
-     *     
-     *     
-     *     
-     *   
-     * 
-     */
-    void renderOnDemand(Map args);
-
-    /**
-     * 
-     *     
-     *     
-     *     
-     *   
-     * 
-     */
-    void renderOnDemand();
-
-    /**
-     * 
-     *         Produces a hyperlink which when clicked first asks for confirmation, then goes to that URL if confirmed.
-     *         The body is displayed as the link text.
-     *         @since 1.512
-     *         
-     *         
-     *         
-     *         
-     *     
-     * 
-     */
-    void confirmationLink(Map args, Closure body);
-
-    /**
-     * 
-     *         Produces a hyperlink which when clicked first asks for confirmation, then goes to that URL if confirmed.
-     *         The body is displayed as the link text.
-     *         @since 1.512
-     *         
-     *         
-     *         
-     *         
-     *     
-     * 
-     */
-    void confirmationLink(Closure body);
-
-    /**
-     * 
-     *         Produces a hyperlink which when clicked first asks for confirmation, then goes to that URL if confirmed.
-     *         The body is displayed as the link text.
-     *         @since 1.512
-     *         
-     *         
-     *         
-     *         
-     *     
-     * 
-     */
-    void confirmationLink(Map args);
-
-    /**
-     * 
-     *         Produces a hyperlink which when clicked first asks for confirmation, then goes to that URL if confirmed.
-     *         The body is displayed as the link text.
-     *         @since 1.512
-     *         
-     *         
-     *         
-     *         
-     *     
-     * 
-     */
-    void confirmationLink();
-
-    /**
-     * 
-     *     Sets up the same 'global' variables that the l:layout tag does for content loaded by AJAX scripts.
-     * 
-     *     
-     *   
-     * 
-     */
-    void ajax(Map args, Closure body);
-
-    /**
-     * 
-     *     Sets up the same 'global' variables that the l:layout tag does for content loaded by AJAX scripts.
-     * 
-     *     
-     *   
-     * 
-     */
-    void ajax(Closure body);
-
-    /**
-     * 
-     *     Sets up the same 'global' variables that the l:layout tag does for content loaded by AJAX scripts.
-     * 
-     *     
-     *   
-     * 
-     */
-    void ajax(Map args);
-
-    /**
-     * 
-     *     Sets up the same 'global' variables that the l:layout tag does for content loaded by AJAX scripts.
-     * 
-     *     
-     *   
-     * 
-     */
-    void ajax();
-
-    /**
-     * 
-     *     Generates the body as the main content part of a Jenkins page.
-     *   
-     * 
-     */
-    @TagFile("main-panel")
-    void main_panel(Map args, Closure body);
-
-    /**
-     * 
-     *     Generates the body as the main content part of a Jenkins page.
-     *   
-     * 
-     */
-    @TagFile("main-panel")
-    void main_panel(Closure body);
-
-    /**
-     * 
-     *     Generates the body as the main content part of a Jenkins page.
-     *   
-     * 
-     */
-    @TagFile("main-panel")
-    void main_panel(Map args);
-
-    /**
-     * 
-     *     Generates the body as the main content part of a Jenkins page.
-     *   
-     * 
-     */
-    @TagFile("main-panel")
-    void main_panel();
-
-    /**
-     * 
-     *         Creates a clickable "Stop" button.
-     *         
-     *         
-     *     
-     * 
-     */
-    void stopButton(Map args, Closure body);
-
-    /**
-     * 
-     *         Creates a clickable "Stop" button.
-     *         
-     *         
-     *     
-     * 
-     */
-    void stopButton(Closure body);
-
-    /**
-     * 
-     *         Creates a clickable "Stop" button.
-     *         
-     *         
-     *     
-     * 
-     */
-    void stopButton(Map args);
-
-    /**
-     * 
-     *         Creates a clickable "Stop" button.
-     *         
-     *         
-     *     
-     * 
-     */
-    void stopButton();
+    void breadcrumbBar();
 
     /**
      * 
@@ -947,6 +839,186 @@ public interface LayoutTagLib
 
     /**
      * 
+     *     Used inside &lt;l:layout> to render additional breadcrumb items.
+     * 
+     *     
+     *     
+     *     
+     *   
+     * 
+     */
+    void breadcrumb(Map args, Closure body);
+
+    /**
+     * 
+     *     Used inside &lt;l:layout> to render additional breadcrumb items.
+     * 
+     *     
+     *     
+     *     
+     *   
+     * 
+     */
+    void breadcrumb(Closure body);
+
+    /**
+     * 
+     *     Used inside &lt;l:layout> to render additional breadcrumb items.
+     * 
+     *     
+     *     
+     *     
+     *   
+     * 
+     */
+    void breadcrumb(Map args);
+
+    /**
+     * 
+     *     Used inside &lt;l:layout> to render additional breadcrumb items.
+     * 
+     *     
+     *     
+     *     
+     *   
+     * 
+     */
+    void breadcrumb();
+
+    /**
+     * 
+     *     Sets up the same 'global' variables that the l:layout tag does for content loaded by AJAX scripts.
+     * 
+     *     
+     *   
+     * 
+     */
+    void ajax(Map args, Closure body);
+
+    /**
+     * 
+     *     Sets up the same 'global' variables that the l:layout tag does for content loaded by AJAX scripts.
+     * 
+     *     
+     *   
+     * 
+     */
+    void ajax(Closure body);
+
+    /**
+     * 
+     *     Sets up the same 'global' variables that the l:layout tag does for content loaded by AJAX scripts.
+     * 
+     *     
+     *   
+     * 
+     */
+    void ajax(Map args);
+
+    /**
+     * 
+     *     Sets up the same 'global' variables that the l:layout tag does for content loaded by AJAX scripts.
+     * 
+     *     
+     *   
+     * 
+     */
+    void ajax();
+
+    /**
+     * 
+     *         Produces a hyperlink which when clicked first asks for confirmation, then goes to that URL if confirmed.
+     *         The body is displayed as the link text.
+     *         @since 1.512
+     *         
+     *         
+     *         
+     *         
+     *     
+     * 
+     */
+    void confirmationLink(Map args, Closure body);
+
+    /**
+     * 
+     *         Produces a hyperlink which when clicked first asks for confirmation, then goes to that URL if confirmed.
+     *         The body is displayed as the link text.
+     *         @since 1.512
+     *         
+     *         
+     *         
+     *         
+     *     
+     * 
+     */
+    void confirmationLink(Closure body);
+
+    /**
+     * 
+     *         Produces a hyperlink which when clicked first asks for confirmation, then goes to that URL if confirmed.
+     *         The body is displayed as the link text.
+     *         @since 1.512
+     *         
+     *         
+     *         
+     *         
+     *     
+     * 
+     */
+    void confirmationLink(Map args);
+
+    /**
+     * 
+     *         Produces a hyperlink which when clicked first asks for confirmation, then goes to that URL if confirmed.
+     *         The body is displayed as the link text.
+     *         @since 1.512
+     *         
+     *         
+     *         
+     *         
+     *     
+     * 
+     */
+    void confirmationLink();
+
+    /**
+     * 
+     *     Load Yahoo UI module.
+     *     
+     *   
+     * 
+     */
+    void yui(Map args, Closure body);
+
+    /**
+     * 
+     *     Load Yahoo UI module.
+     *     
+     *   
+     * 
+     */
+    void yui(Closure body);
+
+    /**
+     * 
+     *     Load Yahoo UI module.
+     *     
+     *   
+     * 
+     */
+    void yui(Map args);
+
+    /**
+     * 
+     *     Load Yahoo UI module.
+     *     
+     *   
+     * 
+     */
+    void yui();
+
+    /**
+     * 
      *     Creates a space for the right-hand side of the page.
      *     This sticks to the right of the page even when the content overflows.
      *   
@@ -980,77 +1052,5 @@ public interface LayoutTagLib
      * 
      */
     void rightspace();
-
-    /**
-     * 
-     *     Header portion of the HTML page, that gets rendered into the &lt;head> tag.
-     *     Multiple &lt;l:header> elements can be specified, and can even come after
-     *     &lt;l:main-panel>.
-     * 
-     *     This tag can be placed inside &lt;l:layout>.
-     *   
-     * 
-     */
-    void header(Map args, Closure body);
-
-    /**
-     * 
-     *     Header portion of the HTML page, that gets rendered into the &lt;head> tag.
-     *     Multiple &lt;l:header> elements can be specified, and can even come after
-     *     &lt;l:main-panel>.
-     * 
-     *     This tag can be placed inside &lt;l:layout>.
-     *   
-     * 
-     */
-    void header(Closure body);
-
-    /**
-     * 
-     *     Header portion of the HTML page, that gets rendered into the &lt;head> tag.
-     *     Multiple &lt;l:header> elements can be specified, and can even come after
-     *     &lt;l:main-panel>.
-     * 
-     *     This tag can be placed inside &lt;l:layout>.
-     *   
-     * 
-     */
-    void header(Map args);
-
-    /**
-     * 
-     *     Header portion of the HTML page, that gets rendered into the &lt;head> tag.
-     *     Multiple &lt;l:header> elements can be specified, and can even come after
-     *     &lt;l:main-panel>.
-     * 
-     *     This tag can be placed inside &lt;l:layout>.
-     *   
-     * 
-     */
-    void header();
-
-    /**
-     * Deprecated, do not use.
-     * 
-     */
-    void isAdminOrTest(Map args, Closure body);
-
-    /**
-     * Deprecated, do not use.
-     * 
-     */
-    void isAdminOrTest(Closure body);
-
-    /**
-     * Deprecated, do not use.
-     * 
-     */
-    void isAdminOrTest(Map args);
-
-    /**
-     * Deprecated, do not use.
-     * 
-     */
-    void isAdminOrTest();
 
 }

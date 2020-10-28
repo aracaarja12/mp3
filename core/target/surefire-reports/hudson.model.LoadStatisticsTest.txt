@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: hudson.model.LoadStatisticsTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.885 sec - in hudson.model.LoadStatisticsTest
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.123 sec <<< FAILURE! - in hudson.model.LoadStatisticsTest
+graph(hudson.model.LoadStatisticsTest)  Time elapsed: 0.121 sec  <<< ERROR!
+java.awt.AWTError: Assistive Technology not found: org.GNOME.Accessibility.AtkWrapper
+	at java.awt.Toolkit.loadAssistiveTechnologies(Toolkit.java:807)
+	at java.awt.Toolkit.getDefaultToolkit(Toolkit.java:886)
+	at sun.swing.SwingUtilities2.getSystemMnemonicKeyMask(SwingUtilities2.java:2032)
+	at javax.swing.plaf.basic.BasicLookAndFeel.initComponentDefaults(BasicLookAndFeel.java:1158)
+	at javax.swing.plaf.metal.MetalLookAndFeel.initComponentDefaults(MetalLookAndFeel.java:431)
+	at javax.swing.plaf.basic.BasicLookAndFeel.getDefaults(BasicLookAndFeel.java:148)
+	at javax.swing.plaf.metal.MetalLookAndFeel.getDefaults(MetalLookAndFeel.java:1577)
+	at javax.swing.UIManager.setLookAndFeel(UIManager.java:539)
+	at javax.swing.UIManager.setLookAndFeel(UIManager.java:579)
+	at javax.swing.UIManager.initializeDefaultLAF(UIManager.java:1349)
+	at javax.swing.UIManager.initialize(UIManager.java:1459)
+	at javax.swing.UIManager.maybeInitialize(UIManager.java:1426)
+	at javax.swing.UIManager.getDefaults(UIManager.java:659)
+	at javax.swing.UIManager.getColor(UIManager.java:701)
+	at org.jfree.chart.JFreeChart.<clinit>(JFreeChart.java:252)
+	at org.jfree.chart.ChartFactory.createLineChart(ChartFactory.java:1178)
+	at hudson.model.MultiStageTimeSeries$TrendChart.createChart(MultiStageTimeSeries.java:238)
+	at hudson.model.LoadStatisticsTest.graph(LoadStatisticsTest.java:86)
+

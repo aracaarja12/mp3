@@ -15,22 +15,22 @@ public interface HudsonPrivateSecurityRealmTagLib
     /**
      * 
      */
-    void index(Map args, Closure body);
+    void config(Map args, Closure body);
 
     /**
      * 
      */
-    void index(Closure body);
+    void config(Closure body);
 
     /**
      * 
      */
-    void index(Map args);
+    void config(Map args);
 
     /**
      * 
      */
-    void index();
+    void config();
 
     /**
      * 
@@ -55,42 +55,22 @@ public interface HudsonPrivateSecurityRealmTagLib
     /**
      * 
      */
-    void sidepanel(Map args, Closure body);
+    void _entryForm(Map args, Closure body);
 
     /**
      * 
      */
-    void sidepanel(Closure body);
+    void _entryForm(Closure body);
 
     /**
      * 
      */
-    void sidepanel(Map args);
+    void _entryForm(Map args);
 
     /**
      * 
      */
-    void sidepanel();
-
-    /**
-     * 
-     */
-    void loginLink(Map args, Closure body);
-
-    /**
-     * 
-     */
-    void loginLink(Closure body);
-
-    /**
-     * 
-     */
-    void loginLink(Map args);
-
-    /**
-     * 
-     */
-    void loginLink();
+    void _entryForm();
 
     /**
      * 
@@ -115,22 +95,42 @@ public interface HudsonPrivateSecurityRealmTagLib
     /**
      * 
      */
-    void _entryForm(Map args, Closure body);
+    void index(Map args, Closure body);
 
     /**
      * 
      */
-    void _entryForm(Closure body);
+    void index(Closure body);
 
     /**
      * 
      */
-    void _entryForm(Map args);
+    void index(Map args);
 
     /**
      * 
      */
-    void _entryForm();
+    void index();
+
+    /**
+     * 
+     */
+    void loginLink(Map args, Closure body);
+
+    /**
+     * 
+     */
+    void loginLink(Closure body);
+
+    /**
+     * 
+     */
+    void loginLink(Map args);
+
+    /**
+     * 
+     */
+    void loginLink();
 
     /**
      * 
@@ -151,26 +151,6 @@ public interface HudsonPrivateSecurityRealmTagLib
      * 
      */
     void addUser();
-
-    /**
-     * 
-     */
-    void config(Map args, Closure body);
-
-    /**
-     * 
-     */
-    void config(Closure body);
-
-    /**
-     * 
-     */
-    void config(Map args);
-
-    /**
-     * 
-     */
-    void config();
 
     /**
      * 
@@ -211,5 +191,25 @@ public interface HudsonPrivateSecurityRealmTagLib
      * 
      */
     void firstUser();
+
+    /**
+     * 
+     */
+    void sidepanel(Map args, Closure body);
+
+    /**
+     * 
+     */
+    void sidepanel(Closure body);
+
+    /**
+     * 
+     */
+    void sidepanel(Map args);
+
+    /**
+     * 
+     */
+    void sidepanel();
 
 }

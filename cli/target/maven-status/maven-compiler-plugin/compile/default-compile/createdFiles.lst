@@ -5,8 +5,8 @@ hudson/cli/CLI$4.class
 hudson/cli/SequenceOutputStream$Block.class
 hudson/cli/SequenceOutputStream.class
 hudson/cli/NoCheckTrustManager.class
-hudson/cli/CLI$2.class
 hudson/cli/client/Messages.class
+hudson/cli/CLI$2.class
 hudson/cli/CliPort.class
 hudson/cli/FullDuplexHttpStream.class
 hudson/cli/PrivateKeyProvider.class

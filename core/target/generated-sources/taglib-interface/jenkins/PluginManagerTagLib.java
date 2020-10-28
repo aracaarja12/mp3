@@ -15,46 +15,6 @@ public interface PluginManagerTagLib
     /**
      * 
      */
-    void index(Map args, Closure body);
-
-    /**
-     * 
-     */
-    void index(Closure body);
-
-    /**
-     * 
-     */
-    void index(Map args);
-
-    /**
-     * 
-     */
-    void index();
-
-    /**
-     * 
-     */
-    void installed(Map args, Closure body);
-
-    /**
-     * 
-     */
-    void installed(Closure body);
-
-    /**
-     * 
-     */
-    void installed(Map args);
-
-    /**
-     * 
-     */
-    void installed();
-
-    /**
-     * 
-     */
     void table(Map args, Closure body);
 
     /**
@@ -71,26 +31,6 @@ public interface PluginManagerTagLib
      * 
      */
     void table();
-
-    /**
-     * 
-     */
-    void check(Map args, Closure body);
-
-    /**
-     * 
-     */
-    void check(Closure body);
-
-    /**
-     * 
-     */
-    void check(Map args);
-
-    /**
-     * 
-     */
-    void check();
 
     /**
      * 
@@ -155,26 +95,6 @@ public interface PluginManagerTagLib
     /**
      * 
      */
-    void available(Map args, Closure body);
-
-    /**
-     * 
-     */
-    void available(Closure body);
-
-    /**
-     * 
-     */
-    void available(Map args);
-
-    /**
-     * 
-     */
-    void available();
-
-    /**
-     * 
-     */
     void checkUpdates(Map args, Closure body);
 
     /**
@@ -195,6 +115,66 @@ public interface PluginManagerTagLib
     /**
      * 
      */
+    void check(Map args, Closure body);
+
+    /**
+     * 
+     */
+    void check(Closure body);
+
+    /**
+     * 
+     */
+    void check(Map args);
+
+    /**
+     * 
+     */
+    void check();
+
+    /**
+     * 
+     */
+    void index(Map args, Closure body);
+
+    /**
+     * 
+     */
+    void index(Closure body);
+
+    /**
+     * 
+     */
+    void index(Map args);
+
+    /**
+     * 
+     */
+    void index();
+
+    /**
+     * 
+     */
+    void available(Map args, Closure body);
+
+    /**
+     * 
+     */
+    void available(Closure body);
+
+    /**
+     * 
+     */
+    void available(Map args);
+
+    /**
+     * 
+     */
+    void available();
+
+    /**
+     * 
+     */
     void advanced(Map args, Closure body);
 
     /**
@@ -211,5 +191,25 @@ public interface PluginManagerTagLib
      * 
      */
     void advanced();
+
+    /**
+     * 
+     */
+    void installed(Map args, Closure body);
+
+    /**
+     * 
+     */
+    void installed(Closure body);
+
+    /**
+     * 
+     */
+    void installed(Map args);
+
+    /**
+     * 
+     */
+    void installed();
 
 }
