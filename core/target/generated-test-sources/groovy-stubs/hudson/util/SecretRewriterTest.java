@@ -10,7 +10,7 @@ import groovy.util.*;
 public class SecretRewriterTest
   extends java.lang.Object  implements
     groovy.lang.GroovyObject {
-@org.junit.Rule() public hudson.util.MockSecretRule mockSecretRule;
+@org.junit.Rule() public MockSecretRule mockSecretRule;
 @org.junit.Rule() public jenkins.security.ConfidentialStoreRule confidentialStoreRule;
 @org.junit.Rule() public org.junit.rules.TemporaryFolder tmp;
 public  groovy.lang.MetaClass getMetaClass() { return (groovy.lang.MetaClass)null;}

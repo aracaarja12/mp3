@@ -53,6 +53,8 @@ import java.security.Signature;
 import java.security.interfaces.DSAPublicKey;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.X509EncodedKeySpec;
+import java.security.NoSuchAlgorithmException;
+import java.security.InvalidAlgorithmParameterException;
 
 public class Connection {
     public final InputStream in;
@@ -153,9 +155,8 @@ public class Connection {
             AlgorithmParameterGenerator paramGen = AlgorithmParameterGenerator.getInstance("DH");
             paramGen.init(keySize);
 
-            KeyPairGenerator dh = KeyPairGenerator.getInstance("DH");
-            dh.initialize(paramGen.generateParameters().getParameterSpec(DHParameterSpec.class));
-            keyPair = dh.generateKeyPair();
+            DHParameterSpec dhArg = paramGen.generateParameters().getParameterSpec(DHParameterSpec.class);
+            keyPair = generateKeyPairWithSpec(dhArg);
 
             // send a half and get a half
             writeKey(keyPair.getPublic());
@@ -163,9 +164,8 @@ public class Connection {
         } else {
             otherHalf = KeyFactory.getInstance("DH").generatePublic(readKey());
 
-            KeyPairGenerator keyPairGen = KeyPairGenerator.getInstance("DH");
-            keyPairGen.initialize(((DHPublicKey) otherHalf).getParams());
-            keyPair = keyPairGen.generateKeyPair();
+            DHParameterSpec dhArg = ((DHPublicKey) otherHalf).getParams();
+            keyPair = generateKeyPairWithSpec(dhArg);
 
             // send a half and get a half
             writeKey(keyPair.getPublic());
@@ -176,6 +176,14 @@ public class Connection {
         ka.doPhase(otherHalf, true);
 
         return ka;
+    }
+
+    public KeyPair generateKeyPairWithSpec(DHParameterSpec dhArg) throws NoSuchAlgorithmException, InvalidAlgorithmParameterException {
+        KeyPair keyPair;
+        KeyPairGenerator dh = KeyPairGenerator.getInstance("DH");
+        dh.initialize(dhArg);
+        keyPair = dh.generateKeyPair();
+        return keyPair;
     }
 
     /**
