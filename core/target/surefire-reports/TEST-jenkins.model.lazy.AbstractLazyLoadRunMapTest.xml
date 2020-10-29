@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.113" tests="21" errors="0" skipped="0" failures="0">
+<testsuite name="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.088" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -61,25 +61,25 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="entrySetContains" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.011"/>
-  <testcase name="idempotentLookup" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0"/>
-  <testcase name="searchExactWhenIndexedButSoftReferenceExpired" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.002"/>
-  <testcase name="entrySetSize" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.003"/>
-  <testcase name="entrySetChanges" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.007"/>
-  <testcase name="fastSubMap" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.016"/>
-  <testcase name="lookup" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.015"/>
-  <testcase name="search" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.001"/>
-  <testcase name="firstKey" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.002"/>
-  <testcase name="entrySetIterator" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.004"/>
-  <testcase name="lookupWithBogusKeyType" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.002"/>
+  <testcase name="entrySetContains" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.015"/>
+  <testcase name="idempotentLookup" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.001"/>
+  <testcase name="searchExactWhenIndexedButSoftReferenceExpired" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.021"/>
+  <testcase name="entrySetSize" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.007"/>
+  <testcase name="entrySetChanges" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0"/>
+  <testcase name="fastSubMap" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.008"/>
+  <testcase name="lookup" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.005"/>
+  <testcase name="search" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0"/>
+  <testcase name="firstKey" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0"/>
+  <testcase name="entrySetIterator" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.001"/>
+  <testcase name="lookupWithBogusKeyType" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.003"/>
   <testcase name="eagerLoading" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.002"/>
   <testcase name="identity" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.001"/>
   <testcase name="lastKey" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.001"/>
-  <testcase name="all" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.006"/>
+  <testcase name="all" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.003"/>
   <testcase name="entrySetEmpty" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.002"/>
-  <testcase name="lookup2" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.001"/>
-  <testcase name="headMap" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.027"/>
-  <testcase name="unloadableData" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.004"/>
-  <testcase name="exactSearchShouldNotReload" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.003"/>
+  <testcase name="lookup2" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.004"/>
+  <testcase name="headMap" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.007"/>
+  <testcase name="unloadableData" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.002"/>
+  <testcase name="exactSearchShouldNotReload" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.002"/>
   <testcase name="indexOutOfBounds" classname="jenkins.model.lazy.AbstractLazyLoadRunMapTest" time="0.003"/>
 </testsuite>

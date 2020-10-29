@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.util.RunListTest" time="2.279" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="hudson.util.RunListTest" time="1.958" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="byTimestampAllRuns" classname="hudson.util.RunListTest" time="0.902"/>
-  <testcase name="byTimestampFirstRun" classname="hudson.util.RunListTest" time="0.603"/>
-  <testcase name="byTimestampLastRun" classname="hudson.util.RunListTest" time="0.774"/>
+  <testcase name="byTimestampAllRuns" classname="hudson.util.RunListTest" time="0.773"/>
+  <testcase name="byTimestampFirstRun" classname="hudson.util.RunListTest" time="0.617"/>
+  <testcase name="byTimestampLastRun" classname="hudson.util.RunListTest" time="0.568"/>
 </testsuite>

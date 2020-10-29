@@ -140,6 +140,7 @@ hudson/model/ViewPropertyTest.class
 jenkins/model/lazy/LazyBuildMixInTest.class
 hudson/cli/ViewManipulationTest.class
 jenkins/security/DefaultFilePathFilterTest$ReverseCallable.class
+jenkins/model/q4Test.class
 jenkins/bugs/Jenkins19124Test$Foo.class
 hudson/model/BuildExecutionTest$1.class
 hudson/diagnosis/ReverseProxySetupMonitorTest.class
