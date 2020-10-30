@@ -1,0 +1,23 @@
+CS 498 MP3
+Name: Aaron Applegate
+
+Q1: This is a duplicated code code smell. I refactored it by extracting the duplicated code from 
+	both occurrences and making a new function out of it that both duplicate occurrences now 
+	call (extract method). 
+
+Q2: Completed. 
+
+Q3: updateAndTrim is a feature envy code smell because both lines rely on methods from another 
+	class. To refactor this, I moved updateAndTrim from the Nodes class to the jenkins class. 
+
+Q4: I used a while loop with four iterations to eliminate the repeated code. Each iteration runs 
+	the code that was repeated, but instead of a breaking from the inner while loop, I broke 
+	on a label that encapsulated the outer for loop. Everything else remained the same. 
+	The test class to test this change is jenkins.model.q4Test. It's located in mp3/test/src/test/
+	java/jenkins/model. 
+
+Q5: Completed. 
+
+Q6: I decided to refactor the duplicated code in the testDoScript() and testDoEval() functions of
+	jenkins.model.JenkinsTest. I did this with extract method refactoring. The new method, 
+	getWebClient(), returns an initialized web client to the tests calling it. 
